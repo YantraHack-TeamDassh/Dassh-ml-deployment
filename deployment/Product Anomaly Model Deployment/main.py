@@ -11,7 +11,7 @@ import uvicorn
 from fastapi import FastAPI, Request
 import numpy as np
 from tensorflow import keras
-from imagemodel import Prediction,ImageModel
+from models import Prediction,ImageModel
 from fastapi.responses import JSONResponse
 from PIL import Image
 
